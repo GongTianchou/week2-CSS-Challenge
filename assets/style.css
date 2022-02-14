@@ -6,6 +6,7 @@
   
   body {
     color: #38b4fc;
+    background-color: aliceblue;
     font-family: Helvetica, Arial, sans-serif;
   }
   
@@ -119,6 +120,11 @@
     height:100px;
     border: #38b4fc;
   }
+  .small:hover {
+    filter: alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity: 0.6;
+  }
   /*.workContent2{
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +153,7 @@
  .inline {
     display: inline;
     font-size: 20px;
-    margin: 20px;
+    margin-left: 20px;
     float: 0 0 20%;
     text-decoration-line: underline;
     text-decoration-style: solid;
