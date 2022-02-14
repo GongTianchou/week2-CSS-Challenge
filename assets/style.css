@@ -5,19 +5,19 @@
   }
   
   body {
-    color: #39a6b2;
+    color: #38b4fc;
     font-family: Helvetica, Arial, sans-serif;
   }
   
   /* apply styles to <header> */
-  header {
+  main header {
     padding-left:0%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #151616;
   }
   
-  header h1 {
+  main header h1 {
     font-weight: bold;
     font-size: 25px;
     color: #151616;
@@ -28,24 +28,21 @@
     width: 15%;
     text-align: right;
   }
-  header a {
-    text-decoration: none;
-    color: #38b4fc;
-  }
-  
-  header nav {
+
+  main header nav {
     float: right;
     margin: 5px 0;
   }
   
-  header nav ul li {
+  main header nav ul li {
     display: inline;
   }
   
-  header nav ul li a {
-    margin:
+  main header nav ul li a {
+    margin:0 30px;
     font-weight: lighter;
     font-size: 20px;
+    color: #38b4fc;
     text-decoration: underline;
   }
 
@@ -56,4 +53,36 @@
     background-position: center;
     position: relative;
   }
+
+ #cool {
+   display: inline-block;
+   color:#151616;
+   font-size: 30px;
+   background-color:#38b4fc;
+   position: relative;
+   left:80%;
+   top:80%;
+  } 
+
+  .subtitle {
+    font-size: 40px;
+    float: left;
+  }
+  .inline {
+    display: inline;
+    font-size: 20px;
+    margin: 20px;
+    float: left;
+    text-decoration: underline;
+  }
+
+  .footer{
+    text-align: center;
+    padding:20px;
+    clear: both;
+  }
+
+ 
+
+
 
