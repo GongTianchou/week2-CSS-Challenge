@@ -22,7 +22,6 @@
     font-size: 25px;
     color: #151616;
     margin: 0;
-    display: inline;
     background-color:  #38b4fc;
     display: inline-block;
     width: 15%;
@@ -43,7 +42,8 @@
     font-weight: lighter;
     font-size: 20px;
     color: #38b4fc;
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
   }
 
   #hero {
@@ -63,25 +63,39 @@
    left:80%;
    top:80%;
   } 
-
-  .subtitle {
-    font-size: 40px;
-    float: left;
+  section {
+    display: flex;
+    margin: 20px 50px;  
   }
+
+  aside {
+    font-size: 30px;
+    width:200px;
+    border-right: 7px solid #151616;
+  }
+  aside h2 {
+    margin-right: 50px;
+  }
+  .content {
+    width: 200px;
+    text-align: center;
+  }
+  .Gong {
+    float: right;
+    margin-left: 25px; 
+    width: 200px;
+  }
+
   .inline {
     display: inline;
     font-size: 20px;
     margin: 20px;
     float: left;
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
   }
-
-  .footer{
-    text-align: center;
-    padding:20px;
-    clear: both;
-  }
-
+  
+  
  
 
 
