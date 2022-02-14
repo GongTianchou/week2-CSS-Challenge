@@ -21,7 +21,7 @@
     color: #151616;
     margin: 0;
     display: inline;
-    box-shadow: 5px 10px 15px #38b4fc;
+    background-color:  #38b4fc;
   }
   header a {
     text-decoration: none;
@@ -44,12 +44,12 @@
     text-decoration: underline;
   }
 
-  .hero {
-    height: 800px;
+  #hero {
+    background-image: url("./images/code.png");
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./assets/images/css.png");
-    background-size: cover;
     background-position: center;
+    position: relative;
   }
 
