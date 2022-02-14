@@ -71,12 +71,13 @@
   aside {
     font-size: 20px;
     width: 20%;
-    border-right: 7px solid #151616;
+    flex: 0 0 20%;
+    border-right: 4px solid #151616;
   }
   aside h2 {
     margin-right: 20px;
   }
-  .content {
+  .selfcontent {
     width: 50%;
     text-align: center;
     }
@@ -87,17 +88,34 @@
     width: 15%;
   }
 
-  .inline {
+  .workContent1 {
+    color: #38b4fc;
+  }
+
+  .workContent2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;  
+  }
+
+  .largeImage {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+  }
+
+
+
+
+
+
+ .inline {
     display: inline;
     font-size: 20px;
     margin: 20px;
-    float: left;
+    float: 0 0 20%;
     text-decoration-line: underline;
     text-decoration-style: solid;
   }
-  
-
- 
-
-
-
