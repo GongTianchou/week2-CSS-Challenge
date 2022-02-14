@@ -48,7 +48,7 @@
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/css.png");
+    background-image: url("./assets/images/css.png");
     background-size: cover;
     background-position: center;
   }
