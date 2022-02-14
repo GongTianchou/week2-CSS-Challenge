@@ -88,22 +88,33 @@
     width: 15%;
   }
 
+
   .workContent1 {
     color: #38b4fc;
   }
 
   .workContent2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0;  
   }
 
-  .largeImage {
-    width: 90%;
-    height: 200px;
+  .large {
+    width: 300px;
+    height: 300px;
     display: flex;
     align-items: flex-end;
     padding-bottom: 5px;
+  }
+
+  .small {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-bottom: 10px;
   }
 
 
