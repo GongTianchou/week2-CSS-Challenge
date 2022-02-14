@@ -11,17 +11,22 @@
   
   /* apply styles to <header> */
   header {
-    padding: 20px 35px;
+    padding-left:0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #151616;
   }
   
   header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 25px;
     color: #151616;
     margin: 0;
     display: inline;
     background-color:  #38b4fc;
+    display: inline-block;
+    width: 15%;
+    text-align: right;
   }
   header a {
     text-decoration: none;
@@ -38,7 +43,7 @@
   }
   
   header nav ul li a {
-    margin: 0 10px;
+    margin:
     font-weight: lighter;
     font-size: 20px;
     text-decoration: underline;
@@ -48,7 +53,6 @@
     background-image: url("./images/code.png");
     height: 300px;
     width: 100%;
-    margin-bottom: 25px;
     background-position: center;
     position: relative;
   }
