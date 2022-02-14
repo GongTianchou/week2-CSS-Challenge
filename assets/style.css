@@ -65,25 +65,26 @@
   } 
   section {
     display: flex;
-    margin: 20px 50px;  
+    margin: 20px 100px;  
   }
 
   aside {
-    font-size: 30px;
-    width:200px;
+    font-size: 20px;
+    width: 20%;
     border-right: 7px solid #151616;
   }
   aside h2 {
-    margin-right: 50px;
+    margin-right: 20px;
   }
   .content {
-    width: 200px;
+    width: 50%;
     text-align: center;
-  }
+    }
+  
   .Gong {
     float: right;
     margin-left: 25px; 
-    width: 200px;
+    width: 15%;
   }
 
   .inline {
@@ -95,7 +96,7 @@
     text-decoration-style: solid;
   }
   
-  
+
  
 
 
